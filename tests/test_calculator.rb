@@ -8,6 +8,7 @@ class TestCalculator < Minitest::Test
     @difference = @calculator.subtract(2, 2)
   end
 
+  
   def test_addition
     assert_equal 4, @sum, "addition method failed"
   end
