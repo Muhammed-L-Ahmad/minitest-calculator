@@ -3,7 +3,7 @@ require './calculator'
 
 class TestCalculator < Minitest::Test
   def setup
-    @calculator = Calculator.new
+    calculator = Calculator.new
   end
 
   def test_addition
